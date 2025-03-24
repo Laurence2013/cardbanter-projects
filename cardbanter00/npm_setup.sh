@@ -1,5 +1,7 @@
 #!/bin/sh
 # Up to date on 25/02/25
+# Up to date on 24/03/25
+	# Change @tsconfig/node18@latest -> @tsconfig/node22@latest
 # Check at README.md for specifications
 
 npm install --save-dev typescript@latest typescript-eslint@latest ts-node@latest ts-jest@latest
@@ -9,4 +11,4 @@ npm install --save-dev eslint-plugin-mocha@latest eslint-plugin-jest@latest esli
 npm install --save-dev concurrently@latest chai-as-promised@latest chai@latest
 npm install --save-dev @types/node@latest @types/morgan@latest @types/mongoose@latest @types/jest@latest @types/http-errors@latest
 npm install --save-dev @types/express@latest @types/debug@latest @types/cookie-parser@latest @types/chai-as-promised@latest @eslint/js@latest
-npm install --save-dev @tsconfig/node18@latest
+npm install --save-dev @tsconfig/node22@latest
